@@ -1,0 +1,248 @@
+html{
+    font-size: 16px;
+    background-color:  #f8f6f7;
+}
+
+.site-largura{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    min-width: 1000px;
+    z-index: 1;
+}
+
+.menu-topo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    min-width: 1000px;
+    background: white;
+    position: sticky;
+}
+
+.menu-topo-esquerda{
+    flex: 1;
+}
+
+.menu-topo-direita{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    align-content: center;
+    gap: 50px;
+    justify-content: flex-end;
+}
+
+.logo{
+    display: flex;
+    align-items: flex-end;
+    font-weight: bold;
+}
+
+.logo-um{
+    color: #f35926;
+    font-size: 2em;
+}
+
+.logo-dois{
+    color: #fcb929;
+    font-size: 2em;
+}
+
+.logo-tres{
+    color: #00b049;
+    font-size: 2em;
+}
+
+.topo-site{
+    background: url(../img/barcos.webp);
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    min-width: 1000px;
+    padding-top: 4em;
+    margin-bottom: 3em;
+}
+
+.formulario{
+    background-color: white;
+    padding: 2em;
+    border-radius: 15px;
+}
+
+h2{
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 1em;
+}
+
+.filtros{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+
+input{
+    text-align: left;
+    padding: 5px 2px 2px;
+}
+
+.campo-filtros{
+    flex: 1;
+}
+
+.campo{
+    width: 100%;
+    height: 2.5rem;
+}
+
+.botao-filtros{
+    flex: 1;
+}
+
+.botao-filtros > button{
+    width: 100%;
+    height: 2.5rem;
+    font-weight: bold;
+    font-size: 1.3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ea3d35;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding-bottom: 3px;
+}
+
+.cidades{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 6em;
+}
+
+article{
+    flex: 200px;
+}
+
+.caixa{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3{
+    font-size: 1.3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-shadow: 1px 1px 5px black;
+}
+
+p{
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 5px black;
+}
+
+.rj{
+    background-image: url(../img/rio.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding: 2em;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.bonito{
+    background-image: url(../img/bonito.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding: 2em;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.sp{
+    background-image: url(../img/sao-paulo.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding: 2em;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.foz{
+    background-image: url(../img/foz.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding: 2em;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.maceio{
+    background-image: url(../img/maceio.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding: 2em;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.salvador{
+    background-image: url(../img/salvador.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding: 2em;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.fortaleza{
+    background-image: url(../img/fortaleza.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding: 2em;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.bh{
+    background-image: url(../img/belo-horizonte.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding: 2em;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.botao-voos{
+    border-radius: 30px;
+    padding: 7px 40px;
+    box-shadow: 1px 1px 5px black;
+    border: 0;
+    background-color: white;
+}
+
+
+
+::placeholder{
+    font-size: 1.5em;
+}
